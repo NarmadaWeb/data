@@ -2,7 +2,6 @@
 
 
 ### data adalah website yang menggunakan python untuk menampilkan data bencana dan penduduk contohnya 
-<strong> 
 - Banjir
 - Gempa
 - Hujan
@@ -10,7 +9,6 @@
 - Jumlah Penduduk
 - Tingkat Kehamilan
 - Tingkat Pengangguran
-</strong>
 
 #### data yang digunakan akan diambil dari sumber terpecaya seperti bmkg, bps dan yang lainnya
 
