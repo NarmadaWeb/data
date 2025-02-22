@@ -1,0 +1,14 @@
+body {
+    font-family: sans-serif;
+}
+
+.index {
+    font-size: 15px;
+    font-weight: bold;
+}
+
+.message {
+    font-style: normal;
+    font-size: 20px;
+    text-align: center;
+}
