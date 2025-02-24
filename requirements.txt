@@ -1,2 +1,6 @@
 fastapi
 g4f
+pydantic
+jinja2
+uvicorn
+pydantic
