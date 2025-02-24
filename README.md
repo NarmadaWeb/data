@@ -1,7 +1,11 @@
 # data 
 
 
+<<<<<<< HEAD
+### data adalah website yang menggunakan python untuk menampilkan data bencana dan penduduk contohnya  
+=======
 ### data adalah website yang menggunakan python untuk menampilkan data bencana dan penduduk contohnya 
+>>>>>>> d4db2d14a92dc04f0be6087d054c6280056bc855
 - Banjir
 - Gempa
 - Hujan
