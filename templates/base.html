@@ -1,25 +1,29 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="id">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>{% block title %} DATA Indonesia - Visualiasi Data {% endblock %}</title>
-    <link rel="stylesheet" href="{{ url_for('static', path='/css/style.css') }}">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>{% block title %}Peta Populasi Indonesia{% endblock %}</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/leaflet/1.9.4/leaflet.css" />
+  <!-- Perbaikan: Gunakan path langsung ke /static -->
+  <link rel="stylesheet" href="/static/css/style.css">
+  <script src="https://cdn.jsdelivr.net/npm/@turf/turf@6.5.0/dist/turf.min.js"></script>
+  {% block head %}{% endblock %}
 </head>
 <body>
-    <header>
-        <h1>My Awesome App</h1>
-    </header>
+  <div id="header">
+    <h1>Peta Populasi Indonesia</h1>
+  </div>
+  
+  {% block content %}{% endblock %}
+  
+  <div id="footer">
+    <p>© 2025 Peta Populasi Indonesia</p>
+  </div>
 
-    <main>
-        {% block content %}
-        
-        {% endblock %}
-    </main>
-
-    <footer>
-        <p>© 2025 My Company</p>
-    </footer>
-    <script src="{{ url_for('static', path='/js/script.js') }}"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/leaflet/1.9.4/leaflet.js"></script>
+  <!-- Perbaikan: Gunakan path langsung ke /static -->
+  <script src="/static/js/script.js"></script>
+  {% block scripts %}{% endblock %}
 </body>
 </html>
