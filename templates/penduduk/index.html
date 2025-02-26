@@ -1,0 +1,18 @@
+{% extends "base.html" %}
+
+{% block content %}
+  <div id="year-selector">
+    <div id="year-display">2020</div>
+    <div class="year-buttons" id="year-buttons"></div>
+    <div class="total-population" id="total-population"></div>
+  </div>
+  
+  <div id="container">
+    <div id="map"></div>
+    <div id="sidebar">
+      <h2>Jumlah Penduduk Provinsi</h2>
+      <input type="text" id="search" placeholder="Cari provinsi..." style="width: 100%; padding: 8px; margin-bottom: 15px; border-radius: 5px; border: 1px solid #ddd;">
+      <ul id="province-list"></ul>
+    </div>
+  </div>
+{% endblock %}
